@@ -101,7 +101,7 @@ class GCodeContext:
         codesets.append(self.loop_forever)
         for codeset in codesets:
           for line in codeset:
-            print line
+            print (line)
       else:
         for p in range(0,self.num_pages):
           for codeset in codesets:
